@@ -1,10 +1,20 @@
 summary: ''
 description: ''
-lock: '!inline u/fii/t3.script.lock'
+lock: |-
+  {
+    "dependencies": {}
+  }
+  //bun.lockb
+  <empty>
+dedicated_worker: false
 kind: script
-dedicated_worker: true
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
-  properties: {}
-  required: []
+  properties:
+    x:
+      type: string
+      description: ''
+      default: null
+  required:
+    - x
