@@ -1,8 +1,0 @@
-defaultTs: bun
-includes: []
-excludes: []
-codebases:
-  - relative_path: ../../codebase
-    includes: 
-      - '**'
-    excludes: []
