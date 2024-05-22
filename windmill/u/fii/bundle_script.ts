@@ -1,4 +1,4 @@
-import { test } from "../../../codebase/index.ts";
+import { test } from "../../../src/index.ts";
 import * as cowsay from "cowsay";
 
 export async function main(x: string) {
