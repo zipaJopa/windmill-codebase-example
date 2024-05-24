@@ -1,5 +1,5 @@
 {
-  "name": "codebase",
+  "name": "windmill-codebase-example",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
